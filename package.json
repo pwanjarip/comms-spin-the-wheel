@@ -1,0 +1,36 @@
+{
+  "name": "comms-spin-the-wheel",
+  "version": "1.0.0",
+  "description": "Comms spin the wheel for selecting a team at random to go over the Operational metrics dashboard",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pwanjarip/comms-spin-the-wheel"
+  },
+  "keywords": [
+    "alexa",
+    "skill",
+    "spin",
+    "the",
+    "wheel"
+  ],
+  "author": "PD Wanjari <pwanjari@hotmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pwanjarip/comms-spin-the-wheel/issues"
+  },
+  "homepage": "https://github.com/pwanjarip/comms-spin-the-wheel",
+  "dependencies": {
+    "alexa-app": "^2.3.4",
+    "chai": "^3.5.0",
+    "chai-as-promised": "^6.0.0",
+    "lodash": "^4.16.4",
+    "mocha": "^3.1.2",
+    "random-js": "^1.0.8",
+    "request": "^2.75.0",
+    "request-promise": "^4.1.1"
+  }
+}
