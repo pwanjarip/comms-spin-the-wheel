@@ -4,7 +4,7 @@
   "description": "Comms spin the wheel for selecting a team at random to go over the Operational metrics dashboard",
   "main": "index.js",
   "scripts": {
-    "test": "mocha"
+    "test": "node ./node_modules/.bin/istanbul cover ./node_modules/.bin/_mocha -- --check-leaks"
   },
   "repository": {
     "type": "git",
@@ -32,5 +32,8 @@
     "random-js": "^1.0.8",
     "request": "^2.75.0",
     "request-promise": "^4.1.1"
+  },
+  "devDependencies": {
+    "istanbul": "^0.4.5"
   }
 }
