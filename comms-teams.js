@@ -1,17 +1,27 @@
 'use strict';
 
 //function commsTeams() {}
-var commsTeams = ['Sync Voice',
+var commsSeattleTeams = ['Sync Voice',
 		'Sync Video',
-		'Contacts',
 		'Platform',
 		'Campfire',
 		'Presence',
 		'Async Messaging',
-		'Mobile Development',
+		'Mobile Development'	
+	];
+
+var commsChennaiTeams = ['Contacts',
 		'Preferences',
 		'Idenity',
 		'Person ID'
 	];
 
-module.exports = commsTeams;
+// Location code equivalents
+var seattleLocationEquivalentCodes = ['seattle', 'north america', 'washington', 'america', 'americas', 'usa', 'canada', 'ottawa', 'us'];
+var chennaiLocationEquivalentCodes = ['chennai', 'madras', 'india', 'not america', 'poland', 'europe'];
+
+module.exports.commsSeattleTeams = commsSeattleTeams;
+module.exports.commsChennaiTeams = commsChennaiTeams;
+
+module.exports.seattleEquivalents = seattleLocationEquivalentCodes;
+module.exports.chennaiEquivalents = chennaiLocationEquivalentCodes;
